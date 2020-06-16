@@ -2,9 +2,15 @@
  * Your code here!
  ******************************************************************************/
 
-
-
-
+function getInput(num) {
+  if (num / 3) {
+    return "Fizz"
+} if (num / 5) {
+    return "Buzz"
+} if (num / 3 && 5 )
+    return "FizzBuzz" 
+} else (num / 3 !== 5)
+    return num
 
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
